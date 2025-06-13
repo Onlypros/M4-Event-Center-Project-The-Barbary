@@ -1,0 +1,71 @@
+/* Events Page */
+#events {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.event {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.event img {
+    width: 100%;              
+    height: auto;             
+    max-height: none;         
+    object-fit: contain;      
+    border-radius: 8px;       
+    margin-bottom: 15px;      
+}
+
+.event h2 {
+    margin: 10px 0;
+}
+
+.event p {
+    margin: 8px 0;
+}
+
+.event .button {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.event .button:hover {
+    background-color: #e60073;
+}
+
+.event:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.event img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.event img {
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
