@@ -98,4 +98,8 @@ README.md
 - The site has been tested on:
     - Chrome
    
----
+## Reflection
+
+This project was an excellent opportunity to practice building a complete multi-page responsive website from scratch using HTML and CSS. Throughout the process, I gained valuable experience with semantic HTML, responsive layout techniques (flexbox, grid, media queries), and CSS optimization (minification).
+
+Additionally, the site was developed, tested, and optimized with the assistance of AI (ChatGPT) as part of the CustomGPT I built as a Hybrid Python Bootcamp teaching assistant. This collaborative approach greatly improved both my learning process and the final product.
